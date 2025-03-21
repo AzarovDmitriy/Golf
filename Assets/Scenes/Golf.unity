@@ -8300,10 +8300,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 254373354184848210, guid: 8636a621b3ea3fb4a902553949b6adab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1433128915}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 254373355089696138, guid: 8636a621b3ea3fb4a902553949b6adab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1043918777}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8636a621b3ea3fb4a902553949b6adab, type: 3}
 --- !u!4 &1043918773 stripped
 Transform:
@@ -8315,23 +8312,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 254373354184848210, guid: 8636a621b3ea3fb4a902553949b6adab, type: 3}
   m_PrefabInstance: {fileID: 1043918772}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1043918776 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 254373355089696138, guid: 8636a621b3ea3fb4a902553949b6adab, type: 3}
-  m_PrefabInstance: {fileID: 1043918772}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1043918777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043918776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47f13dc9f635cd543906f210f65be22b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1045032437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10446,7 +10426,7 @@ Transform:
   m_GameObject: {fileID: 1304919465}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.1338368, z: -0, w: 0.9910034}
-  m_LocalPosition: {x: 82.1, y: 23.443, z: 65.078}
+  m_LocalPosition: {x: 81.78, y: 24.38, z: 65.166}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14599,7 +14579,7 @@ MonoBehaviour:
   onCollision:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 254373352979940544}
         m_TargetAssemblyTypeName: Golf.MyPlayer, Assembly-CSharp
         m_MethodName: OnCollisionStick
         m_Mode: 0
@@ -16598,6 +16578,7 @@ MonoBehaviour:
   stick: {fileID: 1199948038}
   range: 40
   speed: 500
+  power: 20
 --- !u!1 &254373353003095629
 GameObject:
   m_ObjectHideFlags: 0
